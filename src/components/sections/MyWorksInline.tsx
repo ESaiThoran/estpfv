@@ -3,6 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { IoClose } from 'react-icons/io5';
 import InlineVideoPlayer from '../ui/video-player';
 
+// Import video assets
+import deakinLogoVideo from '@/assets/deakin_logov.mp4';
+import nikeVideo from '@/assets/nikev.mp4';
+import drPepperVideo from '@/assets/drpepperv.mp4';
+import cehVideo from '@/assets/cehv.mp4';
+import phishingVideo from '@/assets/phishingv.mp4';
+
 type TransitionPhase = 'idle' | 'overlay' | 'background' | 'content' | 'closing';
 
 interface MyWorksInlineProps {
@@ -141,35 +148,35 @@ const MyWorksInline = ({
       id: 1,
       title: "Logo animation",
       description: "Logo animation for Deakin University.",
-      videoUrl: "/src/assets/deakin_logov.mp4",
+      videoUrl: deakinLogoVideo,
       category: "Design, animation"
     },
     {
       id: 2,
       title: "NIKE ",
       description: "Nike motion design and figma animation.",
-      videoUrl: "/src/assets/nikev.mp4",
+      videoUrl: nikeVideo,
       category: "Figma, Motion design"
     },
     {
       id: 3,
       title: "Dr.Pepper",
       description: "Dr.Pepper motion design and figma animation.",
-      videoUrl: "/src/assets/drpepperv.mp4",
+      videoUrl: drPepperVideo,
       category: "Figma, Motion design"
     },
     {
       id: 4,
       title: "College-Event-Hub",
       description: "UI/UX design for web application and full Stack development.",
-      videoUrl: "/src/assets/cehv.mp4",
+      videoUrl: cehVideo,
       category: "Design and Web Development"
     },
     {
       id: 5,
       title: "Extension",
       description: "AI-powered phishing detection Chrome extension.",
-      videoUrl: "/src/assets/phishingv.mp4",
+      videoUrl: phishingVideo,
       category: "AI/ML, Cyber Security"
     }
   ];
@@ -179,31 +186,31 @@ const MyWorksInline = ({
       id: 1,
       title: "Logo animation",
       description: "Logo animation for Deakin University.",
-      videoUrl: "/src/assets/deakin_logov.mp4",
+      videoUrl: deakinLogoVideo,
     },
     {
       id: 2,
       title: "NIKE ",
       description: "Nike motion design and figma animation.",
-      videoUrl: "/src/assets/nikev.mp4",
+      videoUrl: nikeVideo,
     },
     {
       id: 3,
       title: "Dr.Pepper",
       description: "Dr.Pepper motion design and figma animation.",
-      videoUrl: "/src/assets/drpepperv.mp4",
+      videoUrl: drPepperVideo,
     },
     {
       id: 4,
       title: "College-Event-Hub",
       description: "UI/UX design for web application and full Stack development.",
-      videoUrl: "/src/assets/cehv.mp4",
+      videoUrl: cehVideo,
     },
     {
       id: 5,
       title: "Extension",
       description: "AI-powered phishing detection Chrome extension.",
-      videoUrl: "/src/assets/phishingv.mp4",
+      videoUrl: phishingVideo,
     }
   ];
 
