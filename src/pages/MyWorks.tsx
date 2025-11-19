@@ -165,13 +165,20 @@ const MyWorks = () => {
     },
     {
       id: 4,
+      title: "TESLA",
+      description: "Tesla Model S motion design and figma animation.",
+      videoUrl: teslafigma,
+      category: "Figma, Motion design"
+    },
+    {
+      id: 5,
       title: "College-Event-Hub",
       description: "UI/UX design for web application and full Stack development.",
       videoUrl: cehVideo,
       category: "Design and Web Development"
     },
     {
-      id: 5,
+      id: 6,
       title: "Extension",
       description: "AI-powered phishing detection Chrome extension.",
       videoUrl: phishingVideo,
@@ -200,12 +207,19 @@ const MyWorks = () => {
     },
     {
       id: 4,
+      title: "TESLA",
+      description: "Tesla Model S motion design and figma animation.",
+      videoUrl: teslafigma,
+      category: "Figma, Motion design"
+    },
+    {
+      id: 5,
       title: "College-Event-Hub",
       description: "UI/UX design for web application and full Stack development.",
       videoUrl: cehVideo,
     },
     {
-      id: 5,
+      id: 6,
       title: "Extension",
       description: "AI-powered phishing detection Chrome extension.",
       videoUrl: phishingVideo,
