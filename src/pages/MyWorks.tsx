@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { PageWrapper, StaggeredContent } from '@/components/ui/page-wrapper';
 import { useTransitionNavigation } from '@/hooks/useTransitionNavigation';
 import InlineVideoPlayer from '@/components/ui/video-player';
-import phishingVideo from '@/assets/teslafigma.mp4';
 
 // Import video assets
 import deakinLogoVideo from '@/assets/deakin_logov.mp4';
@@ -13,6 +12,7 @@ import nikeVideo from '@/assets/nikev.mp4';
 import drPepperVideo from '@/assets/drpepperv.mp4';
 import cehVideo from '@/assets/cehv.mp4';
 import phishingVideo from '@/assets/phishingv.mp4';
+import teslaVideo from '@/assets/teslafigma.mp4';
 
 const MyWorks = () => {
   const navigate = useNavigate();
@@ -168,7 +168,7 @@ const MyWorks = () => {
       id: 4,
       title: "TESLA",
       description: "Tesla Model S motion design and figma animation.",
-      videoUrl: teslafigma,
+      videoUrl: teslaVideo,
       category: "Figma, Motion design"
     },
     {
@@ -210,7 +210,7 @@ const MyWorks = () => {
       id: 4,
       title: "TESLA",
       description: "Tesla Model S motion design and figma animation.",
-      videoUrl: teslafigma,
+      videoUrl: teslaVideo,
       category: "Figma, Motion design"
     },
     {
