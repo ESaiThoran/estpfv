@@ -9,7 +9,7 @@ import nikeVideo from '@/assets/nikev.mp4';
 import drPepperVideo from '@/assets/drpepperv.mp4';
 import cehVideo from '@/assets/cehv.mp4';
 import phishingVideo from '@/assets/phishingv.mp4';
-import phishingVideo from '@/assets/teslafigma.mp4';
+import teslaVideo from '@/assets/teslafigma.mp4';
 
 type TransitionPhase = 'idle' | 'overlay' | 'background' | 'content' | 'closing';
 
@@ -170,7 +170,7 @@ const MyWorksInline = ({
       id: 4,
       title: "TESLA",
       description: "Tesla Model S motion design and figma animation.",
-      videoUrl: teslafigma,
+      videoUrl: teslaVideo,
       category: "Figma, Motion design"
     },
     {
@@ -212,7 +212,7 @@ const MyWorksInline = ({
       id: 4,
       title: "TESLA",
       description: "Tesla Model S motion design and figma animation.",
-      videoUrl: teslafigma,
+      videoUrl: teslaVideo,
       category: "Figma, Motion design"
     },
     {
