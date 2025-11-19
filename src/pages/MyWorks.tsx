@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { PageWrapper, StaggeredContent } from '@/components/ui/page-wrapper';
 import { useTransitionNavigation } from '@/hooks/useTransitionNavigation';
 import InlineVideoPlayer from '@/components/ui/video-player';
+import phishingVideo from '@/assets/teslafigma.mp4';
 
 // Import video assets
 import deakinLogoVideo from '@/assets/deakin_logov.mp4';
