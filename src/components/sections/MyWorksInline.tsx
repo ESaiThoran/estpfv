@@ -4,7 +4,6 @@ import { IoClose } from 'react-icons/io5';
 import InlineVideoPlayer from '../ui/video-player';
 
 // Import video assets
-import deakinLogoVideo from '@/assets/deakin_logov.mp4';
 import nikeVideo from '@/assets/nikev.mp4';
 import drPepperVideo from '@/assets/drpepperv.mp4';
 import cehVideo from '@/assets/cehv.mp4';
@@ -147,41 +146,34 @@ const MyWorksInline = ({
   const worksData = [
     {
       id: 1,
-      title: "Logo animation",
-      description: "Logo animation for Deakin University.",
-      videoUrl: deakinLogoVideo,
-      category: "Design, animation"
-    },
-    {
-      id: 2,
       title: "NIKE ",
       description: "Nike motion design and figma animation.",
       videoUrl: nikeVideo,
       category: "Figma, Motion design"
     },
     {
-      id: 3,
+      id: 2,
       title: "Dr.Pepper",
       description: "Dr.Pepper motion design and figma animation.",
       videoUrl: drPepperVideo,
       category: "Figma, Motion design"
     },
     {
-      id: 4,
+      id: 3,
       title: "TESLA",
       description: "Tesla Model S motion design and figma animation.",
       videoUrl: teslaVideo,
       category: "Figma, Motion design"
     },
     {
-      id: 5,
+      id: 4,
       title: "College-Event-Hub",
       description: "UI/UX design for web application and full Stack development.",
       videoUrl: cehVideo,
       category: "Design and Web Development"
     },
     {
-      id: 6,
+      id: 5,
       title: "Extension",
       description: "AI-powered phishing detection Chrome extension.",
       videoUrl: phishingVideo,
@@ -192,37 +184,31 @@ const MyWorksInline = ({
   const videoData = [
     {
       id: 1,
-      title: "Logo animation",
-      description: "Logo animation for Deakin University.",
-      videoUrl: deakinLogoVideo,
-    },
-    {
-      id: 2,
       title: "NIKE ",
       description: "Nike motion design and figma animation.",
       videoUrl: nikeVideo,
     },
     {
-      id: 3,
+      id: 2,
       title: "Dr.Pepper",
       description: "Dr.Pepper motion design and figma animation.",
       videoUrl: drPepperVideo,
     },
     {
-      id: 4,
+      id: 3,
       title: "TESLA",
       description: "Tesla Model S motion design and figma animation.",
       videoUrl: teslaVideo,
       category: "Figma, Motion design"
     },
     {
-      id: 5,
+      id: 4,
       title: "College-Event-Hub",
       description: "UI/UX design for web application and full Stack development.",
       videoUrl: cehVideo,
     },
     {
-      id: 6,
+      id: 5,
       title: "Extension",
       description: "AI-powered phishing detection Chrome extension.",
       videoUrl: phishingVideo,
